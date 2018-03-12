@@ -1,0 +1,343 @@
+
+
+body{
+background: linear-gradient(lightblue, blue, purple, black);
+height: 5400px;
+
+
+
+
+font-family: "gotham", light, san-serif;
+color: #ffffff;
+padding-left: 30px;
+font-size: 20pt;
+
+
+}
+
+.deep{
+font-family: "times new roman", san-serif, italic;
+font-style: italic;
+position: relative;
+top: -20px;
+opacity: 0.5;
+
+
+}
+
+
+
+.size{
+
+float: right;
+position: relative;
+left: 90px;
+transform-origin: 50px 50px;
+
+}
+
+.fish{
+	height: 500px;
+	width: 690px;
+position: relative;
+	top: 30px;
+	left: 20px;
+	float: left;
+	animation-duration        : 20s;
+    animation-fill-mode       : forwards;
+    animation-iteration-count : 10;
+    animation-name            : Slide;
+    animation-direction: reverse;
+    animation-timing-function : linear;
+    transform-origin          : top;
+
+
+
+}
+@keyframes Slide {
+    100%   { transform: translate(50%) skewX(-30deg) ; }
+     0% { transform: translate(200%)   skewX(0deg)   ; }
+       100%   { transform: translate(150%) skewX(-30deg) ; }
+            0% { transform: translate(0%)   skewX(0deg)   ; }
+}
+
+
+
+
+
+.rock{
+	height: 800px;
+	width: 800px;
+	position: fixed;
+
+float: left;
+left: -450px;
+ 	transform: rotate(10deg);
+	z-index: 3;
+
+    -webkit-animation-name: spin;
+    -webkit-animation-duration:200s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 200s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 200s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	
+ }
+
+
+.rock-2{
+	height: 900px;
+	width: 900px;
+	position: absolute;
+left: 700px;
+top: 1px;
+
+ 	transform: rotate(60deg);
+	z-index: -1;
+
+    -webkit-animation-name: spin;
+    -webkit-animation-duration:200s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 200s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 200s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 200s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+    @-ms-keyframes spin { 
+        from { 
+            -ms-transform: rotate(0deg); 
+        } to { 
+            -ms-transform: rotate(360deg); 
+        }
+    }
+    @-moz-keyframes spin { 
+        from { 
+            -moz-transform: rotate(0deg); 
+        } to { 
+            -moz-transform: rotate(360deg); 
+        }
+    }
+    @-webkit-keyframes spin { 
+        from { 
+            -webkit-transform: rotate(0deg); 
+        } to { 
+            -webkit-transform: rotate(360deg); 
+        }
+    }
+  
+    
+}
+	
+ 
+
+
+
+
+.too{
+
+height: 500px;
+	width: 690px;
+	float: right;
+position: relative;
+	top: 20px;
+
+}
+
+
+
+
+
+.sq{
+	height: 500px;
+	width: 690px;
+	float: left;
+position: relative;
+	top: 20px;
+	animation-duration        : 20s;
+    animation-fill-mode       : both;
+    animation-iteration-count : infinite;
+    animation-name            : slide;
+    animation-direction: alternate,reverse;
+    animation-timing-function : ease;
+    transform-origin          : linear;
+
+}
+
+@keyframes slide{
+    100%   { transform: translate(0%) skewX(-40deg) ; }
+     0% { transform: translate(0%)   skewX(0deg)   ; }
+       100%   { transform: translate(150%) skewX(-30deg) ; }
+            0% { transform: translate(0%)   skewX(0deg)   ; }
+}
+
+
+.marine{
+
+	float: right;
+animation-duration        : 20s;
+    animation-fill-mode       : forwards;
+    animation-iteration-count : infinite;
+    animation-name            : mar;
+    animation-direction: reverse;
+    animation-timing-function : linear;
+    transform-origin          : top;
+
+}
+
+@keyframes mar{
+    100%   { transform: translate(350%) skewX(-40deg) ; }
+     0% { transform: translate(-200%)   skewX(0deg)   ; }
+       
+}
+
+.shell{
+
+float: left;
+animation-duration        : 20s;
+    animation-fill-mode       : both;
+    animation-iteration-count : infinite;
+    animation-name            : s;
+    animation-direction: both;
+    animation-timing-function : ease;
+    transform-origin          : left;
+
+}
+@keyframes s{
+    100%   { transform: translate(0%) skewX(-40deg) ; }
+     0% { transform: translate(0%)   skewX(0deg)   ; }
+       100%   { transform: translate(150%) skewX(-30deg) ; }
+            0% { transform: translate(0%)   skewX(0deg)   ; }
+}
+
+
+
+.blue{
+
+	height: 50px;
+	width: 90px;
+	animation-duration        : 20s;
+    animation-fill-mode       : both;
+    animation-iteration-count : infinite;
+    animation-name            : b;
+    animation-direction: both;
+    animation-timing-function : ease;
+    transform-origin          : left;
+}
+
+@keyframes b{
+    100%   { transform: translate(1000%) skewX(-40deg) ; }
+     0% { transform: translate(0%)   skewX(0deg)   ; }
+     
+}
+
+
+.red{
+max-width: 90px;
+max-height:90px;
+position: absolute;
+	padding-top: 250px;
+}
+
+.audio{
+
+position:  fixed;
+z-index: 10;
+list-style-type: none;
+opacity: .7;
+
+
+ }
+.audio2{
+position: relative;
+top: 50px;
+z-index: 500px;
+
+}
+
+.audio3{
+position: relative;
+top: 100px;
+z-index: 100px;
+
+}
+
+.glow{
+max-width: 300px;
+max-height:300px;
+float: right;
+left: -400px;
+top: 300px;
+position: relative;
+z-index: 10;
+}
+
+.tru{
+
+max-width: 50px;
+max-height:50px;
+float: right;
+left: -310px;
+top: 350px;
+position: relative;
+
+
+}
+
+.stop{
+
+max-width: 300px;
+max-height:300px;
+position: relative;
+
+float: right;
+top: -70px;
+}
+
+.bus{
+	max-width: 400px;
+max-height:400px;
+animation-fill-mode       : forwards;
+    	animation-duration        : 1s;
+    animation-iteration-count : infinite;
+    animation-name            : red;
+    animation-direction: reverse;
+    animation-timing-function : linear;
+    transform-origin          : top;
+
+
+
+}
+
+@keyframes red{
+    100%   { transform: translate(350%) skewX(-40deg) ; }
+     0% { transform: translate(-200%)   skewX(0deg)   ; }
+       
+}
+
