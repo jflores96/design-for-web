@@ -1,79 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+
 <head>
-	<meta charset="UTF-8">
-	<script src="scripts.js"></script>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Farsight in Vanilla JavaScript</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
-	<title>Draft</title>
+  
+      <link rel="stylesheet" href="style.css">
 
+  
 </head>
+
 <body>
-	<h1>
-		ROCK <div class="deep">BOTTOM</div > 
-</h1>
 
-	<li class= "audio"><audio controls><source src="gozilla 2.mp3" type="audio/mpeg"></audio></li>
-		<div class="audio2"><li class= "audio"><audio controls><source src="flores_pills.mp3" type="audio/mpeg"></audio></li></div>
-			<div class="audio3">	<li class= "audio"><audio controls><source src="sound.mp3" type="audio/mpeg"></audio></li></div>
-
-
-
-
-	
-
-
-	<img class="size" src="diver.png" alt="diver">
-	<div><img class="rock" src="Boulder.png" alt="diver"></div>
-	<div><img class="rock-2" src="Boulder.png" alt="diver"></div>
-
-		
-			<img class="fish" src="dolphin.png" alt="diver">
+  <header class="header">
+  <nav class="menu">
+    <a href="#layer1" class="menu__item"></a>
+    <a href="#layer2" class="menu__item"></a>
+    <a href="#layer3" class="menu__item"></a>
+    <a href="#layer4" class="menu__item"></a>
+    <a href="#layer5" class="menu__item"></a>
+    <a href="#layer6" class="menu__item"></a>
+  </nav>
+</header>
 
 
 
+<div class="wrapper">
+  <div class="environment">
+    <div class="scene">
+
+      <div id="layer1" class="layer" data-depth="0">
+      <h1><img class="size" src="towers.png" alt="tower"></h1>
+      </div>
+
+      <div id="layer2" class="layer" data-depth="500">
+ <h1><img class="size" src="tower-2.png" alt="tower"></h1>
+
+      </div>
+
+      <div id="layer3" class="layer" data-depth="1000">
+        <h1><img class="tree" src="birds-on-branch.png" alt="tower"> 
+          <img class="tree-2" src="tree-2.png" alt="tower"> 
+          <img class="bird" src="bird.png" alt="tower"> 
+           <img class="man" src="fisherman.png" alt="tower"> 
+          
+
+        </h1>
+      </div>
+
+      <div id="layer4" class="layer" data-depth="1500">
+          <h1> <img class="house" src="house.png" alt="tower"> </h1>
+      </div>
+
+      <div id="layer5" class="layer" data-depth="2000">
+           <h1> <img class="mount" src="mountains-2.png" alt="tower"> </h1>
+      </div>
+
+      <div id="layer6" class="layer" data-depth="2500">
+         <h1> <span class="dot"></span></h1>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="scene__depth"></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenLite.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/plugins/ScrollToPlugin.min.js'></script>
+
+  
+
+    <script  src="index.js"></script>
 
 
-		<div >
-			<img class="too" src="sub.png" alt="diver">
-		</div>
-
-		<div >
-			<img class="sq" src="squid.png" alt="diver">
-		</div>
-
-		<div >
-			<img class="marine" src="kai.png" alt="diver">
-		</div>
-
-		<div >
-			<img class="shell" src="shell.png" alt="diver">
-		</div>
-
-		
-
-		<div >
-			<img class="shark" src="shark.png" alt="diver">
-		</div>
-
-
-		<div >
-			<img class="blue" src="lantern.png" alt="diver">
-			<img class="blue" src="lantern.png" alt="diver">
-			<img class="red" src="fangtooth.png" alt="diver">
-		</div>
-
-
-		<div >
-			<img class="glow" src="glow.png" alt="diver">
-			<video autoplay loop muted class="tru" > <source src="light.mp4" type="video/mp4"> </video>
-			<img class="stop" src="stop.png" alt="diver">
-
-			<img class="bus" src="bus.png" alt="diver">
-			
-			
-		</div>
-	
 
 
 </body>
