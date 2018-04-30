@@ -1,0 +1,51 @@
+.square {
+  height: 200px;
+  width: 170px;
+  /*background-color: #A9A9A9; */
+  position: absolute;
+  left: 500px;
+  top: 200px;
+  border: 1px solid black;
+}
+
+.rec{
+height: 10px;
+  width: 100px;
+  /*background-color: #A9A9A9; */
+  position: absolute;
+  left:30px;
+  top: 170px;
+  border: 1px solid black;
+
+
+}
+
+.screen{
+
+height: 90px;
+width: 100px;
+background-color: black;
+  position: absolute;
+  left: 35px;
+  top: 30px;
+
+}
+
+.towel{
+height: 90px;
+width: 100px;
+/*background-color: #FFEBCD; */
+position: absolute;
+left: 300px;
+top: 300px;
+ border-radius: 25px;
+    border: 1px solid black;
+
+
+
+}
+
+
+
+
+
